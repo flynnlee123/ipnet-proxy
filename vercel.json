@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://www.ipip.net/"
-    },
-    {
-      "source": "/:path*",
-      "destination": "https://www.ipip.net/:path*"
+      "source": "/(.*)",
+      "destination": "https://www.ipip.net"
     }
   ]
 }
